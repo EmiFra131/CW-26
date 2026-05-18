@@ -53,9 +53,9 @@ Me gusta trabajar en equipo
 
 **Commit:** `docs(aprendizaje): agrega notas de la sesión`
 
-1. 
-2. 
-3. 
+1. Los 4 estados de un repositorios
+2. Recorde los comandos basicos de git
+3. Recorde como se creaban los tokens del git
 
 ---
 
