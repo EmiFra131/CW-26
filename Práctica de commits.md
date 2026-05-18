@@ -22,7 +22,9 @@ Algo sobre mí :  Me gustan las tortugas
 
 **Qué hacer:** Agrega al menos tres cosas que sabes hacer (no tienen que ser de programación).  
 
-
+Hago amigos facilmente
+Aprendo rapido sobre algunos temas
+Me gusta trabajar en equipo
 
 **Commit:** `feat(habilidades): agrega lista de habilidades`
 
