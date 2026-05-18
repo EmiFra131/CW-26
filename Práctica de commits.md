@@ -66,12 +66,12 @@ Me gusta trabajar en equipo
 
 | Comando | ¿Qué hace? |
 |---------|------------|
-| `git init` | |
-| `git status` | |
-| `git add .` | |
-| `git commit -m "..."` | |
-| `git log --oneline` | |
-| `git push` | |
+| `git init` |Crea un repositorio local |
+| `git status` |Revisa el estado actual del repositorio |
+| `git add .` |Agrega los cambios al respositorio local |
+| `git commit -m "..."` |Agregas un comentario sobre los cambios y se guarda el progreso del repositorio hasta ese punto |
+| `git log --oneline` |Ver el commit anterior|
+| `git push` |Empuja los cambios a el repositorio remoto|
 
 ---
 
