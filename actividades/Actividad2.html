@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name = "author" content="Emilio Fraide">
-    <meta name="description" content="Mi primera pagina HTML"
-    <title>Mi primera pagina web</title>
+    <meta name="description" content="Una pagina HTML, que en su contenido revisa el funcionamiento de un programa en lenguaje C"
+    <title>Actividad2</title>
 </head>
 <body>
 
     <h1> Explicando un Programa en lenguaje C</h1>
 
+    <hr>
+
+    <h2> Agregamos el codigo a revisar</h2>
 
     <pre><code>
     #include &lt;stdio.h&gt;
@@ -31,6 +34,54 @@
     }
     </code></pre>
 
+    <h3> Explicacion:</h3>
+
+    <hr>
+
+    <code>#include &lt;stdio.h&gt;</code>
+    <p> Agregamos la biblioteca estandar de entrada y salida</p>
+
+    <br>
+
+    <code>int main()</code>
+    <p> Escribimos nuestra funcion principal</p>
+
+    <br>
+
+    <code>int edad;</code>
+    <p> Declaramos una variable de tipo entero llamado edad</p>
+
+    <br>
+
+    <code>printf("¿Cuántos años tienes? ");</code>
+    <p> Imprimimos en pantallla con printf la pregunta para que el usuario introduzca su edad</p>
+
+    <br>
+
+    <code>scanf("%d", &edad);</code>
+    <p> Con scanf pordemos redireccionar un valor que el usuario ingresa en la terminar a nuestra variable de tipo entero edad</p>
+
+    <br>
+
+    <pre><code>if (edad >= 18) {
+            printf("Eres mayor de edad.\n");
+    </code></pre>
+    <p> Con este if comprobamos si el usuario tiene mas de 18 años de edad, si es verdad se imprime en pantalla con otro printf que el usuario es mayor de edad</p>
+
+    <br>
+
+    <pre><code>else {
+            printf("Eres menor de edad.\n");
+    </code></pre>
+    <p> Si nuestra condicion anteriro es falsa, vamos a imprimir con ayuda de otro printf que el usuario es menor de edad</p>
+
+    <br>
+
+    <code>return 0;</code>
+    <p> Usamos return 0 para no regresar ningun valor de nuestra funcion principal y terminar el programa</p>    
+
+
+    <hr>
 </body>
 
 </html>
