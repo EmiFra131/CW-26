@@ -1,21 +1,112 @@
-#axel.color-favorito{background-color: blue; color:white }
+body{
+    font-size: 2vw;
+}
 
-#sofia.color-favorito{background-color: black;    color: white}
+caption{
+    font-size: 5vw;
+}
+
+table{
+    padding: 2vw;
+    border:1px solid black;
+    width: 50vw;
+}
+
+td.color-favorito{
+    color: white;
+}
+
+td{
+    border: 2px dotted black;
+    padding: 1vw;
+}
+
+#axel.color-favorito{
+    background-color: blue;
+    border: 2px dotted black;
+}
+
+#axel.color-favorito:hover{
+    background-color: rgb(255, 255, 255); 
+    color: blue;
+    border: 5px dotted blue;
+}
+
+#sofia.color-favorito{
+    background-color: black;
+    border: 2px dotted black;
+}
+
+#sofia.color-favorito:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 5px dotted black;
+}
 
 #citlalli.color-favorito{
-	background-color: rgb(245, 66, 167);
+    background-color: rgb(245, 66, 167);
+    border: 2px dotted black;
+}
+
+#citlalli.color-favorito:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(245, 66, 167);
+    border: 5px dotted rgb(245, 66, 167);
 }
 
 #jorge.color-favorito{
     background-color: red;
+    border: 2px dotted black;
+}
+
+#jorge.color-favorito:hover{
+    background-color: rgb(255, 255, 255);
+    color: red;
+    border: 5px dotted red;
 }
 
 #emilio.color-favorito{
     background-color: rgb(30, 129, 80);
+    border: 2px dotted black;
 }
 
-table {
-    border:1px solid black;
-    border-collapse: collapse;
+#emilio.color-favorito:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(30,129, 80);
+    border: 5px dotted rgb(30,129, 80);
 }
+
+/* Vista de celular*/
+
+@media only screen and (max-width: 500px){
     
+    table {
+        background-color: rgb(23, 14, 48);
+        color: rgb(145, 192, 233);
+        border:2px solid rgb(255, 255, 255);
+        padding: 5vw;
+
+        caption{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style: italic;
+            font-weight: bold ;
+            border: 2px dotted rgb(184, 221, 253);
+            color: rgb(0, 0, 0);
+        }
+
+        td{
+            border: 2px dotted rgb(184, 221, 253);
+            font-weight: bold;
+        }
+    }
+}
+
+#sticky{
+    position: fixed;
+    top: 5vh;
+    right: 5vw;
+    background-color: yellowgreen;
+    font-weight: bold;
+    padding: 3vw;
+    
+}
