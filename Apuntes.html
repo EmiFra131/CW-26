@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "author" content="Emilio Fraide">
+    <meta name="description" content="Una pagina que muestra el funcionamiento de 5 etiquetas distintas de html">
+    <title>Apuntes html</title>
+
+    <style>
+        table, th,td
+        {
+            border: 2px,solid,black;
+        }
+    </style>
+
+    
+</head>
+<body>
+    <table>
+        <caption> Apuntes de la calse</caption>
+        <thead>
+            <tr>
+                <th scope="col">Etiqueta</th>
+                <th scope="col">Para que sirve</th>
+                <th scope="col">Ejemplo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="col">h1</td>
+                <td scope="col">la etiqueta nos permite poner titulos o encabezados</td>
+                <td scope="col">
+                    <code>
+                        &lt;h1&gt; Esto es un encabezado &lt;/h1&gt;
+                    </code>
+                </td>
+            </tr>
+            <tr>
+                <td scope="col">p</td>
+                <td scope="col">Nos permite poner un parrafo de texto</td>
+                <td scope="col">
+                    <code>
+                        &lt;p&gt; Podemos poner un parrafo de texto con la etiqueta p &lt;/p&gt;
+                    </code>
+                </td>
+            </tr>
+            <tr>
+                <td scope="col">a</td>
+                <td scope="col">No sirve para poner vinculos o hipervinculos al mismo html</td>
+                <td scope="col">
+                    <code>
+                        &lt;a href="inicio.html"&gt;regresar al inicio&lt;/a&gt;
+                    </code>
+                </td>
+            </tr>
+            <tr>
+                <td scope="col">hr</td>
+                <td scope="col">Crea una linea que divide el documento html</td>
+                <td scope="col">
+                <pre>
+                    <code>
+&lt;h1&gt; Esto es el titulo &lt;/h1&gt;
+&lt;hr&gt;
+&lt;p&gt; Esto es el texto del documento &lt;/p&gt;
+                    </code>
+                </pre>      
+                </td>
+            </tr>
+            <tr>
+                <td scope="col">br</td>
+                <td scope="col">crea un salto de linea</td>
+                <td scope="col">
+                    <code>
+                        &lt;p&gt; Primera linea &lt;br&gt; Segunda linea &lt;/p&gt;
+                    </code>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
